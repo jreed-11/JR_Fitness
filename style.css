@@ -53,7 +53,7 @@ li {
 	background: var(--color-primary);
 	display: flex;
 	justify-content: space-evenly;
-	padding: 10px;
+	padding: 10px 0px 150px 0px;
 }
 
 .hero_header {
@@ -81,6 +81,8 @@ li {
 	color: white;
 	display: flex;
 	flex: 1;
+	justify-content: center;
+	align-items: center;
 
 	font-size: 18px;
 	max-width: 600px;
@@ -92,4 +94,39 @@ li {
 
 .hero_content {
 	max-width: 500px;
+}
+
+/* Info Section */
+
+.info_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info_title {
+	font-size: 36px;
+	color: var(--color-primary);
+	font-weight: bolder;
+	margin: 30px;
+}
+
+.image_container {
+	display: flex;
+	gap: 10px;
+}
+
+.equip_img {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	border: 4px solid royalblue;
+	border-radius: 20px;
+}
+
+.info_description {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	gap: 10px;
 }
