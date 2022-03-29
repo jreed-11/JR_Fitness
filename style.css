@@ -1,0 +1,49 @@
+:root {
+	--color-primary: #1f2937;
+	--color-secondary: #e5e7eb;
+	--accent-color: #3882f6;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* typography */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/* nav bar */
+
+.nav_container {
+	background-color: var(--color-primary);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.header_logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+	color: var(--color-secondary);
+	display: flex;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+}
