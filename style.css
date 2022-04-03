@@ -73,7 +73,8 @@ li {
 	color: #f9faf8;
 	background: var(--accent-color);
 	border-radius: 5px;
-	padding: 4px 20px;
+	font-size: 20px;
+	padding: 5px 15px;
 	border: none;
 }
 
@@ -111,6 +112,7 @@ li {
 	display: flex;
 	justify-content: center;
 	gap: 100px;
+	margin-bottom: 150px;
 }
 
 .image_container {
@@ -121,6 +123,11 @@ li {
 	text-align: center;
 }
 
+.holding_container {
+	font-size: 15px;
+	color: var(--color-primary);
+}
+
 .equip_img {
 	display: flex;
 	width: 150px;
@@ -129,4 +136,77 @@ li {
 	border: 2px solid royalblue;
 	border-radius: 6px;
 	margin-bottom: 10px;
+}
+
+/* quote section */
+
+.quote_container {
+	display: flex;
+	background: var(--color-secondary);
+	flex-direction: column;
+	padding: 150px 250px;
+	min-width: 900px;
+}
+
+.quote_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	color: #1f2937;
+	font-style: italic;
+	font-weight: 300;
+}
+.author_name {
+	display: flex;
+	font-size: 24px;
+	font-weight: 600;
+	justify-content: flex-end;
+	padding-top: 20px;
+}
+
+/* Call for Action Section */
+
+.callout_container {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+
+.callout_signup {
+	display: flex;
+	justify-content: space-between;
+	background: var(--accent-color);
+	width: 1200px;
+	align-items: center;
+	padding-right: 50px;
+	border-radius: 10px;
+}
+
+.callout_header {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.callout_header > h3 {
+	color: white;
+	font-weight: 700;
+	font-size: 25px;
+}
+.callout_header > p {
+	color: white;
+	font-size: 15px;
+	font-weight: light;
+}
+
+.callout_btn {
+	background: var(--accent-color);
+	border: white solid 2px;
+	color: white;
+	font-weight: 200;
+	border-radius: 5px;
+	display: flex;
+	font-size: 20px;
+	padding: 5px 15px;
 }
