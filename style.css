@@ -210,3 +210,16 @@ li {
 	font-size: 20px;
 	padding: 5px 15px;
 }
+
+/* footer */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: var(--color-primary);
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	padding: 25px;
+}
