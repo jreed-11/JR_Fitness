@@ -141,6 +141,9 @@ li {
 		text-align: center;
 		width: auto;
 	}
+	.hero_text {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 920px) {
