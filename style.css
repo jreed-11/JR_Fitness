@@ -52,6 +52,16 @@ li {
 	font-size: 1.5rem;
 }
 
+a:link {
+	color: var(--accent-color);
+}
+a:visited {
+	color: var(--accent-color);
+}
+a:hover {
+	color: red;
+}
+
 @media screen and (max-width: 1200px) {
 	.nav_container {
 		display: flex;
@@ -120,6 +130,11 @@ li {
 	font-size: 2rem;
 	padding: 0.5rem 1.5rem;
 	border: none;
+}
+.hero_btn:hover {
+	background: white;
+	color: #3882f6;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 1320px) {
@@ -312,6 +327,17 @@ li {
 	display: flex;
 	font-size: 2rem;
 	padding: 0.5rem 1.5rem;
+}
+.callout_btn:hover {
+	background: white;
+	color: #3882f6;
+	cursor: pointer;
+}
+.callout_header > h3::selection {
+	background: red;
+}
+.callout_header > p::selection {
+	background: red;
 }
 
 @media screen and (max-width: 920px) {
